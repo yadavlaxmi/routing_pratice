@@ -1,29 +1,14 @@
-
 import React from "react";
-import {NavLink} from "react-router-dom";
+import Header from "./Component/Header"
+
 const Contact=()=>{
     return(
-        <>
-        <header>
-        <a href="#">logo</a>
-        <nav>
-            <ul>
-                <li>
-                    <NavLink to="/">Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/about">About</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/contact"> MY Contact</NavLink>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>contact page</h1>
-    </section>
+    <>
+           <Header/>
+        <section>
+            <h1>Contact page</h1>
+        </section>
     </>
     )
-} 
+}
 export default Contact;
