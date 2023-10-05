@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import{Button} from "@material-ui/core" 
 
 const Contact=()=>{
     const navigate=useNavigate();
@@ -11,7 +12,7 @@ const Contact=()=>{
         
         <section>
             <h1>Contact page</h1>
-            <button onClick={gotohome}>go to home page</button>
+            <Button variant='contained' color="primary" onClick={gotohome}>go to home page</Button>
         </section>
     </>
     )
